@@ -1,0 +1,15 @@
+pluginManagement {
+    repositories {
+        exclusiveContent {
+            forRepository {
+                maven { url "https://nexus.corp.com/repository/gradle-plugins" }
+            }
+            filter {
+                includeGroupByRegex("com\\.company\\..*")
+            }
+        }
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'dep-case0-safe-no-confusion'

@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+    maven { url "https://nexus.corp.com/repository/maven-releases" }
+}
+
+dependencies {
+    implementation 'com.company:internal-lib:2.0'
+    implementation 'com.company:billing-client:4.1.2'
+}
