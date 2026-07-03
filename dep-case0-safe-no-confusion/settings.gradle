@@ -5,7 +5,7 @@ pluginManagement {
                 maven { url "https://nexus.corp.com/repository/gradle-plugins" }
             }
             filter {
-                includeGroupByRegex("com\\.company\\..*")
+                includeGroupByRegex("com\\.thisdomainnotexistjijdaoda\\..*")
             }
         }
         gradlePluginPortal()

@@ -8,7 +8,8 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.company:shared-utils:1.+'
-    implementation 'com.company:config-lib:[1.0,2.0)'
-    implementation 'com.company:feature-flags:latest.release'
+    implementation 'com.thisdomainnotexistjijdaoda:shared-utils:1.+'
+    implementation 'com.thisdomainnotexistjijdaoda:config-lib:[1.0,2.0)'
+    implementation 'com.thisdomainnotexistjijdaoda:feature-flags:latest.release'
+    implementation 'org.apache.commons:commons-lang3:3.14.0'
 }

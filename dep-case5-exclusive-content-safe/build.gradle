@@ -8,14 +8,14 @@ repositories {
             maven { url "https://nexus.corp.com/repository/maven-releases" }
         }
         filter {
-            includeGroupByRegex("com\\.company\\..*")
+            includeGroupByRegex("com\\.thisdomainnotexistjijdaoda\\..*")
         }
     }
     mavenCentral()
 }
 
 dependencies {
-    implementation 'com.company.core:internal-lib:2.0'
-    implementation 'com.company.billing:billing-client:4.1.2'
+    implementation 'com.thisdomainnotexistjijdaoda.core:internal-lib:2.0'
+    implementation 'com.thisdomainnotexistjijdaoda.billing:billing-client:4.1.2'
     implementation 'org.apache.commons:commons-lang3:3.14.0'
 }

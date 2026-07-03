@@ -8,7 +8,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.company:internal-lib:2.0'
-    implementation 'com.company:billing-client:4.1.2'
+    implementation 'com.thisdomainnotexistjijdaoda:internal-lib:2.0'
+    implementation 'com.thisdomainnotexistjijdaoda:billing-client:4.1.2'
     implementation 'org.apache.commons:commons-lang3:3.14.0'
 }
